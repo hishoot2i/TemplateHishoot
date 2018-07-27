@@ -16,3 +16,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+*.jks
+.gradle/
+build/
+*.iml
+.idea/
+local.properties
