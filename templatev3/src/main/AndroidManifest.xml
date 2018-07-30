@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="id.ratabb.templatev3.sample">
+<!--
+package : Package name is the fully qualified name for the project (following the same rules as
+    those for naming packages in the Java programming language). Your package name must be unique
+    across all packages installed on the Android system.
+
+application:
+
+    android:label       : A user-readable label for the application
+    android:icon        : An icon for the application
+    android:hasCode[*]  : When the value is "false", the system does not try to load any application
+                          code when launching components
+
+    meta-data:[*]:
+      android:name="org.illegaller.ratabb.hishoot2i.TEMPLATE"
+      android:value="3" [**]
+
+[*] Template V2
+[**] Template V3
+-->
+    <application
+            android:label="Sample HiShoot2i Template v3"
+            android:icon="@mipmap/ic_launcher"
+            android:hasCode="false">
+        <meta-data
+                android:name="org.illegaller.ratabb.hishoot2i.TEMPLATE"
+                android:value="3"/>
+    </application>
+
+</manifest>
